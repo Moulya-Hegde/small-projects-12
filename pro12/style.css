@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 149, 149);
+}
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;   
+    font-family: "Sofadi One", system-ui;
+}
+.title{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.timer{
+    font-size: 72px;
+}
+button{
+    font-size: 20px;
+    text-transform:uppercase ;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 4px 6px rgba(0,0,0,.3);
+    font-family: "Sofadi One", system-ui;
+    font-weight: 600;
+
+}
+#start{
+    background-color: rgb(19, 164, 19);
+}
+#stop{
+    background-color: rgb(185, 47, 47);
+}
+button:hover{
+    opacity: 0.7;
+}

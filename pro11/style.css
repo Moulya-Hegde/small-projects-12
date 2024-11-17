@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding:5px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, .2),-6px -6px 10px rgba(255,255,255,0.7);
+    border-radius: 50px;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    position: relative;
+    transition: width 1.0s ease;
+    transition-delay: .1s;
+}
+#mag{
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+}
+#mic{
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    transition: width 0.4s;
+    transition-delay: .5s;
+}
+.input{
+    background-color: transparent;
+    border: none;
+    margin: 10px 50px;
+    outline: none;
+    color: rgb(100,100,100);
+    transition: opacity .3s ease;
+}
+.active.container{
+    width: 50px;
+}
+.active .input{
+    width: 0;
+    opacity: 0;
+}
+.active #mic{
+     width: 0;
+}

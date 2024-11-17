@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    margin: 10px;
+}
+.test-container{
+    background-color: rgb(243, 168, 243);
+    width: 400px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 3px 8px 10px;
+    margin: 5px;
+    padding: 70px 20px;
+}

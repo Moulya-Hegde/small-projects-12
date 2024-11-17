@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(38, 128, 146);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
